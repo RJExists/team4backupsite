@@ -144,11 +144,11 @@ body {
     margin:0 auto;
 }
 main {
-    background-color:#ddd;
+    background-color:#ffffff;
     background-image:url(../images/.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    border:1px solid #333;
+    
 }
 
 nav {
@@ -208,14 +208,14 @@ h3 {
 h4 {
     text-transform: uppercase;
     text-align:center;
-    font-size:1.5rem;
+    font-size:2rem;
     margin: 0;
-    letter-spacing: 0.25rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
+    letter-spacing: 0.10rem;
+    color:rgb(0, 0, 0);
+    text-shadow:.09375rem .09375rem .09375rem #b9b9b9;
     padding-bottom:1.125rem;
     font-weight:normal;
+    text-decoration: underline;
     span {
         padding-top:0;
         padding-bottom:0;
@@ -270,15 +270,93 @@ p {
     text-align:left;
 }
 
+.example 
+{
+    font-weight:normal;
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:1rem;
+    padding-right:1rem;
+    width:auto;
+    height:auto;
+    text-align:center;
+    white-space: nowrap;
+    border-left:5px solid #28234b;
+    border-bottom: 3px solid #28234b;
+}
+
+.bad-link 
+{
+color:red;
+}
+
+
 /* Image & Figure */
+.sgty-hyperlinks 
+{
+    display: grid;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align:center;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
 
 
+}
+.sgty-hyperlinks p
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 40px;
+    text-align:center;
+}
 
+.hyperlink-one 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+}
+.hyperlink-two 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.do-this 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid #000;
+}
+.do-this p 
+{
+    border-bottom: 2px solid #000;
+}
+.not-this 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid #000;
+}
+.not-this p 
+{
+    border-bottom: 2px solid #000;
+}
+
+.the-end 
+{
+border-left: 5px solid #ff0000;
+}
 /* Footer */
 
 footer {
     padding:0rem;
-    border-top: 2rem solid #333;
+    border-top: 5px solid #333;
 }
 
 .copyright {
