@@ -13,20 +13,181 @@
     font-style:normal;
     font-weight:normal;
 }
+@font-face {
+    font-family: 42dotSans;
+    src: url(../fonts/42dotSans.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 
+@font-face {
+    font-family: Atkinson;
+    src: url(../fonts/AtkinsonHyperlegibleNext.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Atkinson;
+    src: url(../fonts/AtkinsonHyperlegibleNext-Italicwght.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url(../fonts/Cormorant.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url(../fonts/Cormorant-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/Exo.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/Exo-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Marcellus;
+    src: url(../fonts/Marcellus-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Oleo Script;
+    src: url(../fonts/OleoScript-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Oleo Script;
+    src: url(../fonts/OleoScript-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Permanent Marker;
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Satisfy;
+    src: url(../fonts/Satisfy-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Sixtyfour Convergence;
+    src: url(../fonts/SixtyfourConvergence.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Light.ttf);
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-LightItalic.ttf);
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
 
 /* Root */
-
-html {
-    font-size:16px;
-}
+html {font-size:16px; background-color: #f2f0eb; }
 
 
 /* Body & Main  */
 
 
 .dropbtn1 {
-    color:rgb(95, 70, 44);
+    color:#212121;
     padding: 16px;
     font-size: 25px;
     margin-top: 0.25rem;
@@ -56,12 +217,12 @@ html {
 
 }
 
-.dropdown-content1 a:hover {background-color: rgba(6, 116, 50, 0.5)}
+.dropdown-content1 a:hover {background-color: #a6bcc7;}
 .dropdown1:hover .dropdown-content1 {display: block;}
-.dropdown1:hover .dropbtn1 {background-color: rgba(86, 53, 0, 0.15);} 
+.dropdown1:hover .dropbtn1 {background-color:  #748c99;} 
 
 .dropbtn2 {
-    color:rgb(95, 70, 44);
+    color:#212121;
     padding: 16px;
     font-size: 25px;
     margin-top: 0.50rem;
@@ -93,14 +254,14 @@ html {
 
 }
 
-.dropdown-content2 a:hover {background-color: rgba(6, 116, 50, 0.5);}
+.dropdown-content2 a:hover {background-color: #a6bcc7;}
 .dropdown2:hover .dropdown-content2 {display: block;}
 .dropdown2:hover .dropbtn2 {
-    background-color: rgba(86, 53, 0, 0.15);
+    background-color:  #748c99;
 } 
 
 .dropbtn3 {
-    color:rgb(95, 70, 44);
+    color:#212121;
     padding: 16px;
     font-size: 25px;
     margin-top: 0.25rem;
@@ -131,9 +292,9 @@ html {
     padding: 16px 16px 16px 16px;
 }
 
-.dropdown-content3 a:hover {background-color: rgba(6, 116, 50, 0.5);}
+.dropdown-content3 a:hover {background-color: #a6bcc7;}
 .dropdown3:hover .dropdown-content3 {display:block;}
-.dropdown3:hover .dropbtn3 {background-color: rgba(86, 53, 0, 0.15);} 
+.dropdown3:hover .dropbtn3 {background-color:  #748c99;} 
 
 body {
     font-family:Lato, Arial, sans-serif;
@@ -144,11 +305,11 @@ body {
     margin:0 auto;
 }
 main {
-    background-color:#ddd;
+    background-color:#ffffff;
     background-image:url(../images/.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    border:1px solid #333;
+    
 }
 
 nav {
@@ -172,7 +333,7 @@ h1 {
     margin: 0;
     padding: 0.25rem 0.25rem -0.01rem 0.25rem;
     letter-spacing: .5rem;
-    color:rgb(95, 70, 44);
+    color:#212121;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
@@ -184,7 +345,7 @@ h2 {
     font-size:2.5rem;
     margin: 0;
     letter-spacing:0.15rem;
-    color:rgb(10, 119, 2);
+    color:#212121;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-weight:normal;
     font-family:'Alfa Slab One', Garamond, serif;
@@ -199,7 +360,7 @@ h3 {
     font-size:2.5rem;
     margin: 0;
     letter-spacing: 0.15rem;
-    color:rgb(0, 96, 22);
+    color:#212121;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     font-weight:normal;
@@ -208,14 +369,14 @@ h3 {
 h4 {
     text-transform: uppercase;
     text-align:center;
-    font-size:1.5rem;
+    font-size:2rem;
     margin: 0;
-    letter-spacing: 0.25rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
+    letter-spacing: 0.10rem;
+    color:#212121;
+    text-shadow:.09375rem .09375rem .09375rem #b9b9b9;
     padding-bottom:1.125rem;
     font-weight:normal;
+    text-decoration: underline;
     span {
         padding-top:0;
         padding-bottom:0;
@@ -270,15 +431,93 @@ p {
     text-align:left;
 }
 
+.example 
+{
+    font-weight:normal;
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:1rem;
+    padding-right:1rem;
+    width:auto;
+    height:auto;
+    text-align:center;
+    white-space: nowrap;
+    border-left:5px solid #28234b;
+    border-bottom: 3px solid #28234b;
+}
+
+.bad-link 
+{
+color:red;
+}
+
+
 /* Image & Figure */
+.sgty-hyperlinks 
+{
+    display: grid;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align:center;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
 
 
+}
+.sgty-hyperlinks p
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 40px;
+    text-align:center;
+}
 
+.hyperlink-one 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+}
+.hyperlink-two 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.do-this 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid #000;
+}
+.do-this p 
+{
+    border-bottom: 2px solid #000;
+}
+.not-this 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid #000;
+}
+.not-this p 
+{
+    border-bottom: 2px solid #000;
+}
+
+.the-end 
+{
+border-left: 5px solid #ff0000;
+}
 /* Footer */
 
 footer {
     padding:0rem;
-    border-top: 2rem solid #333;
+    border-top: 5px solid #333;
 }
 
 .copyright {
@@ -329,7 +568,7 @@ a.you-are-here:hover
 a.homepage 
 {
     text-decoration:none;
-    color:rgb(95, 70, 44);
+    color:#212121;
 }
 a.homepage:hover
 {

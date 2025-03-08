@@ -1,0 +1,383 @@
+/* Imported Typeface Files */
+
+@font-face {
+    font-family: 42dotSans;
+    src: url(../fonts/42dotSans.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Atkinson;
+    src: url(../fonts/AtkinsonHyperlegibleNext.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Atkinson;
+    src: url(../fonts/AtkinsonHyperlegibleNext-Italicwght.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url(../fonts/Cormorant.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url(../fonts/Cormorant-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/Exo.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/Exo-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Marcellus;
+    src: url(../fonts/Marcellus-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Oleo Script;
+    src: url(../fonts/OleoScript-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Oleo Script;
+    src: url(../fonts/OleoScript-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Permanent Marker;
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Satisfy;
+    src: url(../fonts/Satisfy-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Sixtyfour Convergence;
+    src: url(../fonts/SixtyfourConvergence.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-Light.ttf);
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Chakra Petch;
+    src: url(../fonts/chakra-petch/ChakraPetch-LightItalic.ttf);
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+/* Root */
+
+font-size:16px;  background-color: #f2f0eb;
+    font-size: 16px;
+}
+
+
+/* Body & Main  */
+
+body {
+    font-size: 1rem;
+    padding: 1rem;
+    min-width: 39rem;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #ddd;
+    background-image: url(../images/.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #333;
+}
+
+/* Section & Paragraph */
+
+section {
+    margin-top: 0.5rem;
+}
+
+p1 {
+    font-family: Sixtyfour Convergence, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+    color:black;
+}
+
+p2 {
+    font-family: Satisfy, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+p3 {
+    font-family: Permanent Marker, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+p4 {
+    font-family: Oleo Script, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+p5 {
+    font-family: Marcellus, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+p6 {
+    font-family: Lobster, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+p7 {
+    font-family: Exo, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+p8 {
+    font-family: Cormorant, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+p9 {
+    font-family: Atkinson, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+p10 {
+    font-family: Chakra Petch, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+p11 {
+    font-family: Libre Baskerville, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+p12 {
+    font-family: 42dotSans, Arial, Helvetica;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+/* Image & Figure */
+
+
+
+
+/* Footer */
